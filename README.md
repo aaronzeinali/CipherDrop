@@ -1,70 +1,57 @@
-CipherDrop
+<h1 align="center">CipherDrop</h1>
 
-CipherDrop is a simple, secure file transfer application written in Python. It allows you to send files safely between a client and a server using strong encryption and integrity checks.
+<p align="center">
+  <em>Secure and simple file transfer with Python</em>
+</p>
 
-🚀 Features
+---
 
-End-to-End Encryption: Ensures that your files are securely transmitted and unreadable by anyone intercepting them.
+<h2>🚀 Features</h2>
+<ul>
+  <li><strong>End-to-End Encryption:</strong> Ensures files are securely transmitted and unreadable by anyone intercepting them.</li>
+  <li><strong>Integrity Verification:</strong> Confirms that files arrive without corruption or tampering.</li>
+  <li><strong>Lightweight and Simple:</strong> Minimal dependencies and straightforward setup for quick deployment.</li>
+  <li><strong>Cross-Platform:</strong> Runs on any system with Python installed.</li>
+</ul>
 
-Integrity Verification: Confirms that files arrive without corruption or tampering.
+<h2>💡 Philosophy</h2>
+<p>In an era where digital communication is often vulnerable, <strong>CipherDrop</strong> is built with three guiding principles:</p>
+<ol>
+  <li><strong>Privacy First:</strong> Your files are yours alone. Encryption ensures only the intended recipient can access them.</li>
+  <li><strong>Simplicity Without Sacrifice:</strong> Security doesn't have to be complex. CipherDrop keeps the interface intuitive while maintaining strong protection.</li>
+  <li><strong>Trust Through Transparency:</strong> Open-source by design, allowing anyone to inspect, improve, or audit the code.</li>
+</ol>
+<p>CipherDrop embodies the belief that secure file sharing should be <strong>accessible, reliable, and transparent</strong>.</p>
 
-Lightweight and Simple: Minimal dependencies and straightforward setup for quick deployment.
-
-Cross-Platform: Runs on any system with Python installed.
-
-💡 Philosophy
-
-In an era where digital communication is often vulnerable, CipherDrop is built with three guiding principles:
-
-Privacy First: Your files are yours alone. Encryption ensures only the intended recipient can access them.
-
-Simplicity Without Sacrifice: Security doesn't have to be complex. CipherDrop keeps the interface intuitive while maintaining strong protection.
-
-Trust Through Transparency: Open-source by design, allowing anyone to inspect, improve, or audit the code.
-
-CipherDrop embodies the belief that secure file sharing should be accessible, reliable, and transparent.
-
-🛠️ Getting Started
-
-Clone the repository:
-
+<h2>🛠️ Getting Started</h2>
+<pre><code># Clone the repository
 git clone https://github.com/aaronzeinali/CipherDrop.git
 cd CipherDrop
 
-
-Install dependencies (if any):
-
+# Install dependencies
 pip install -r requirements.txt
 
-
-Run the server:
-
+# Run the server
 python server.py
 
-
-Run the client:
-
+# Run the client
 python client.py
+</code></pre>
 
-📁 Usage
+<h2>📁 Usage</h2>
+<ul>
+  <li>Select a file to send via the client.</li>
+  <li>The server receives the file, verifies its integrity, and saves it securely.</li>
+  <li>Encryption ensures that even if network traffic is intercepted, file contents remain confidential.</li>
+</ul>
 
-Select a file to send via the client.
+<h2>🤝 Contributing</h2>
+<p>Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Focus areas include:</p>
+<ul>
+  <li>Improving encryption methods</li>
+  <li>Adding cross-platform GUI support</li>
+  <li>Enhancing performance and usability</li>
+</ul>
 
-The server receives the file, verifies its integrity, and saves it securely.
-
-Encryption ensures that even if network traffic is intercepted, file contents remain confidential.
-
-🤝 Contributing
-
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request. Focus areas include:
-
-Improving encryption methods
-
-Adding cross-platform GUI support
-
-Enhancing performance and usability
-
-📜 License
-
-This project is open-source under the MIT License. See LICENSE
- for details.
+<h2>📜 License</h2>
+<p>This project is open-source under the <strong>MIT License</strong>. See <a href="LICENSE">LICENSE</a> for details.</p>
