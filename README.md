@@ -21,7 +21,15 @@
   <li><strong>Simplicity Without Sacrifice:</strong> Security doesn't have to be complex. CipherDrop keeps the interface intuitive while maintaining strong protection.</li>
   <li><strong>Trust Through Transparency:</strong> Open-source by design, allowing anyone to inspect, improve, or audit the code.</li>
 </ol>
-<p>CipherDrop embodies the belief that secure file sharing should be <strong>accessible, reliable, and transparent</strong>.</p>
+<p>Contributors are encouraged to participate not just to enhance CipherDrop, but to uphold the broader philosophy of <strong>free and open-source software</strong>. By contributing, you:</p>
+<ul>
+  <li>Help advance secure file sharing practices and cryptographic experimentation.</li>
+  <li>Support a culture of transparency and reproducibility in software development.</li>
+  <li>Gain hands-on experience with real-world encryption, networking, and cross-platform Python development.</li>
+  <li>Join a community that values accessibility, collaboration, and ethical use of technology.</li>
+</ul>
+<p>CipherDrop embodies the belief that secure file sharing should be <strong>accessible, reliable, transparent, and a shared effort</strong>—inviting programmers, security researchers, and enthusiasts alike to contribute, learn, and innovate together.</p>
+
 
 <h2>🛠️ Getting Started</h2>
 <pre><code># Clone the repository
