@@ -40,10 +40,11 @@ cd CipherDrop
 pip install -r requirements.txt
 
 # Run the server
-python server.py
+python server.py --host 0.0.0.0 --port 5000 --save-dir received --psk "[your_pass_key]"
 
 # Run the client
-python client.py
+The server ip address is local in this sample. [your_server_ip] = 127.0.0.1
+python client.py --host [your_server_ip] --port 5000 --file tests/test.txt --psk "[your_pass_key]"
 </code></pre>
 
 <h2>📁 Usage</h2>
